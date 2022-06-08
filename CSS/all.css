@@ -1,0 +1,1326 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
+/* Reset end */
+
+*{
+    outline: 1px solid #2d2d2d;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.bodyhome{
+    color: #221E1F;
+    font-family: 'Noto Sans TC', sans-serif;
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/bg_home.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+a{
+  display: block;
+  text-decoration: none;
+  text-align: center;
+}
+
+.firstball{
+    position: absolute;
+    width: 138px;
+    height: 360px;
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/ball01.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    top: calc(100vh - 50px);
+}
+
+
+.thirdball{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 2550px;
+    left: 50px;
+    z-index: -999;
+}
+
+
+.container{
+    position: relative;
+    max-width: 1085px;
+    margin: 0 auto 134px;
+}
+
+
+.btn-top{
+    position: fixed;
+    right: 5%;
+    bottom: 5%;
+    z-index: 100;
+}
+
+.btn-top a{
+    width: 71px;
+    height: 71px;
+    color: white;
+    background-color: #56C4C5;
+    border-radius: 100px;
+    padding: 26px 0;
+    font-family: 'Wendy One', sans-serif;
+}
+
+.btn-top a:hover{
+    background-color: #43B1B2;
+}
+
+.nav-wrap{
+    max-width: 1085px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.logo{
+    width: 218px;
+    height: 40px;
+}
+
+.logo img{
+    display: block;
+    width: 100%;
+}
+
+.btn-fee{
+    color: white;
+    background-color: #FF5D50;
+    padding: 8px 32px;
+    line-height: 24px;
+    border-radius: 100px;
+}
+
+.btn-fee:hover{
+    background-color: #EB4A3D;
+}
+
+.subtitle{
+    color: #56C4C5;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 26px;
+    margin-bottom: 8px;
+}
+
+.title{
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 70px;
+    margin-bottom: 16px;
+}
+
+.hero{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.remark{
+    font-size: 20px;
+    line-height: 29px;
+}
+
+
+.intro{
+    width: 40%;
+}
+
+.illustration{
+    width: 50%;
+}
+
+.media{
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.media h2{
+    text-align: center;
+    font-size: 32px;
+    line-height: 46px;
+    font-weight: bold;
+    margin-bottom: 48px;
+}
+
+.medialist{
+    display: flex;
+    justify-content: space-around;
+}
+
+.medialist li{
+    text-align: center;
+    width: 23%;
+}
+
+.medialist img{
+    display: block;
+    width: 90px;
+    height: 90px;
+    margin: 0 auto;
+}
+
+.medialist h3{
+    font-size: 24px;
+    line-height: 35px;
+    font-weight: bold;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.medialist p{
+    line-height: 24px;
+    color: #747474;
+}
+
+.media{
+    margin-bottom: 100px;
+}
+
+.media h2{
+    font-size: 32px;
+    line-height: 46px;
+    font-weight: bold;
+    margin-bottom: 48px;
+}
+
+.service{
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.service h2{
+    font-size: 32px;
+    line-height: 46px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.service p{
+    font-size: 20px;
+    line-height: 29px;
+    margin-bottom: 48px;
+}
+
+.servicecard{
+    display: flex;
+    justify-content: space-between;
+}
+
+.servicecard li{
+    text-align: center;
+    width: 24%;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px #00000014;
+    background-color: white;
+    padding: 0 0 16px 0;
+}
+
+.servicecard img{
+    display: block;
+    border-radius: 12px 12px 0 0 ;
+}
+
+.servicecard p{
+    line-height: 24px;
+    font-weight: bold;
+    color: #56C4C5;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.servicecard span{
+    line-height: 24px;
+}
+
+.feature{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 72px;
+}
+
+.featurecard{
+    width: 50%;
+}
+
+.featurecard ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.featurecard li{
+    width: 46%;
+    padding-top: 32px;
+    padding-bottom: 48px;
+    padding-left: 32px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 0 2px 10px #00000014;
+    margin-bottom: 28px;
+}
+
+.circle{
+    width: 86px;
+    height: 86px;
+    border-radius: 100px;
+    box-shadow: 0 2px 10px #00000014;
+}
+
+.circle img{
+    display: block;
+    padding: 17px;
+}
+
+.card3 img{
+    padding: 22px 20px;
+}
+
+.card4 img{
+    padding: 21px 22px;
+}
+
+.featurelist p{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: bold;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.featurelist span{
+    line-height: 24px;
+}
+
+.text{
+    width: 40%;
+}
+
+.text h2{
+    font-size: 32px;
+    line-height: 46px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.text p{
+    line-height: 26px;
+    font-size: 18px;
+    margin-bottom: 24px;
+}
+
+.text a{
+    display: inline-block;
+    color: white;
+    background-color: #56C4C5;
+    padding: 12px 32px;
+    border-radius: 27px;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.text a:hover{
+    background-color: #43B1B2;
+}
+
+
+.review h2{
+    text-align: center;
+    font-size: 32px;
+    line-height: 46px;
+    font-weight: bold;
+    margin-bottom: 104px;
+}
+
+.reviewcard{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.reviewcard li{
+    position: relative;
+    width: 32%;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px #00000014;
+    background-color: white;
+    padding: 24px 28px;
+}
+
+.avatar{
+    display: block;
+    position: absolute;
+    left: 32px;
+    top: -50px;
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    box-shadow: 0 2px 10px #00000014;
+}
+
+.reviewcard p{
+    line-height: 24px;
+    padding: 24px 0;
+    border-bottom: 1px solid #DDDDDD;
+    margin-bottom: 24px;
+}
+
+.reviewcard h3{
+    line-height: 24px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.star{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 35%;
+}
+
+.star img{
+    position: relative;
+    width: 17px;
+    height: 16px;
+}
+
+.nameandstar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nameandstar span{
+    line-height: 24px;
+}
+
+.carousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.carousel li a{
+    width: 10px;
+    height: 10px;
+    background-color: #DDDDDD;
+    border-radius: 50px;
+    margin-right: 8px;
+}
+
+.carousel li a:hover{
+    background-color: #FFD153;
+}
+
+.carousel 
+    .focus a{
+        width: 16px;
+        background-color: #FFD153;
+}
+
+.footer{
+    height: 503px;
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/home_footer.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    padding-top: 260px;
+}
+
+.footer h2{
+    font-size: 32px;
+    line-height: 46px;
+    font-weight: bold;
+    margin-bottom: 48px;
+}
+
+.footer a{
+    display: inline-block;
+    color: white;
+    background-color: #56C4C5;
+    padding: 12px 32px;
+    border-radius: 27px;
+    margin-bottom: 100px;
+    font-size: 18px;
+    line-height: 26px; 
+}
+
+.footer a:hover{
+    background-color: #43B1B2;
+}
+
+.footer p{
+    line-height: 24px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: #F5F5F5;
+}
+
+
+@media(max-width:992px) {
+
+    .bodyhome{
+        background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/bg_home.svg);
+        background-size: 65%;
+    }
+
+    .firstball{
+       display: none;
+    }
+
+    .nav{
+        padding: 0 24px;
+    }
+    .container{
+        padding: 0 24px;
+    }
+
+    .hero{
+        height: 100%;
+        margin-bottom: 100px;
+    }
+
+    .subtitle{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    .title{
+        font-size: 42px;
+        line-height: 63px;
+    }
+
+    .remark{
+       font-size: 18px;
+       line-height: 26px;
+    }
+
+    .media h2{
+        font-size: 28px;
+        line-height: 40px;  
+    }
+
+    .media li{
+        width: 28%;
+        margin-bottom: 24px;
+    }
+
+    .medialist h3{
+        font-size: 20px;
+        line-height: 29px;
+    }
+    
+
+    .service h2{
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .service p{
+        font-size: 18px;
+        line-height: 26px;
+        margin-bottom: 40px;
+    }
+
+    .servicecard p{
+        margin-bottom: 16px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+
+    .servicecard{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .service li{
+        width: 40%;
+        margin-bottom: 20px;
+    }
+
+    .feature{
+        flex-direction: column-reverse;
+    }
+
+    .text{
+        width: 100%;
+        text-align: center;
+    }
+
+    .text h2{
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .text a{
+        margin-bottom: 36px;
+    }
+
+    .thirdball{
+        display: none;
+    }
+
+    .featurecard{
+        width: 100%;
+    }
+
+    .featurecard ul{
+        justify-content: space-evenly;
+    }
+
+    .featurecard li{
+        width: 40%;
+    }
+
+    .review h2{
+        font-size: 28px;
+        line-height: 40px;
+    }
+    
+    .star{
+        width: 45%;
+    }
+}
+
+@media(max-width:767px) {
+    .title{
+        font-size: 40px;
+        line-height: 58px;
+    }
+
+    .media h2{
+        margin-bottom: 42px;
+    }
+    
+    .reviewcard3{
+        display: none;
+    }
+
+    .reviewcard{
+        justify-content: space-evenly;
+    }
+
+    .reviewcard li{
+        width: 40%;
+        padding: 24px 16px;
+    }
+
+    .btn-top a{
+        width: 56px;
+        height: 56px;
+        padding: 21px 0;
+        font-size: 12px;
+    }
+
+
+    .footer h2{
+        margin-bottom: 42px;
+    }
+}
+
+@media(max-width:576px) {
+    .container{
+        margin: 0 auto 60px;
+    }
+
+
+    .nav-wrap{
+        align-items: center;
+    }
+    
+    .logo{
+        height: 24px;
+        width: 130.84px;
+    }
+
+    .title{
+        font-size: 32px;
+        line-height: 46px;
+    }
+
+    .remark{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .hero{
+        margin-bottom: 60px;
+    }
+
+    .media{
+        margin-bottom: 60px;
+    }
+
+    .media h2{
+        margin-bottom: 32px;
+    }
+
+    .service p{
+        margin-bottom: 32px;
+    }
+
+    .service{
+        margin-bottom: 60px;
+    }
+
+    .text p{
+        margin-bottom: 16px;
+    }
+
+    .text a{
+        margin-bottom: 32px;
+    }
+
+    .feature{
+        margin-bottom: 60px;
+    }
+
+    .review h2{
+        margin-bottom: 88px;
+    }
+
+
+    .footer{
+        height: 461px;
+    }
+}
+
+@media(max-width:414px) {
+    .bodyhome{
+        background-image:url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/bg_home_sm.svg');
+        background-position: 0 7%;
+        background-size: 100% 245px;
+
+    }
+    
+    .container{
+        padding: 0 20px;
+    }
+
+    .nav{
+        padding: 0 20px;
+        border-bottom: 2px solid #FFD153;
+    }
+
+    .hero{
+        flex-direction: column;
+        margin-top: 32px;
+    }
+
+    .intro{
+        width: 100%;
+        margin-bottom: 32px;
+    }
+
+    .illustration{
+        width: 95%;
+    }
+
+    .media{
+        margin-bottom: 36px;
+    }
+
+    .medialist{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .medialist li{
+        width: 85%;
+    }
+
+    .medialist img{
+        width: 60px;
+        height: 60px;
+    }
+
+    .medialist h3{
+        margin-top: 16px;
+        margin-bottom: 16px;
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .service li{
+        width: 70%;
+    }
+
+    .servicecard p{
+        margin-bottom: 16px;
+    }
+
+    .featurelist li{
+        width: 65%;
+        margin-bottom: 24px;
+    }
+
+    .text p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .feature{
+        margin-bottom: 36px;
+    }
+
+    .reviewcard2{
+        display: none;
+    }
+
+    .reviewcard li{
+        width: 100%;
+    }
+
+    .reviewcard p{
+        margin-bottom: 16px;
+    }
+
+    .footer{
+        background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/footer_sm.svg);
+    }
+
+    .footer h2{
+        font-size: 24px;
+        line-height: 35px;
+        margin-bottom: 24px;
+    }
+
+    .footer a{
+        margin-bottom: 60px;
+    }
+}
+
+/* fee.html css */
+
+.bodyfee{
+    color: #221E1F;
+    font-family: 'Noto Sans TC', sans-serif;
+    position: relative;
+}
+
+.bannerbg{
+    background-color: #F7F9FD;
+    height: 470px;
+    width: 100%;
+    border-radius: 0 0 0 300px;
+    margin-bottom: 100px;
+}
+
+.bannercontent{
+    max-width: 1085px;
+    margin: 0 auto;
+}
+
+
+.bg-img img{
+    max-width: 65%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+.bannertitle{
+    margin-top: 92px;
+}
+
+.bannertitle h1{
+    font-size: 48px;
+    line-height: 70px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.bannertitle p{
+    line-height: 24px;
+}
+
+.fee-content{
+    width: 84%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.plan{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.plan h2{
+    font-size: 32px;
+    line-height: 46px;
+    font-weight: bold;
+    margin-bottom: 48px;
+}
+
+.amount{
+    display: flex;
+    width: 85%;
+    margin: 0 85px;
+    margin-bottom: 54px;
+}
+
+.amount a{
+    font-size: 18px;
+    line-height: 26px;
+    color: #56C4C5;
+    border: 1px solid #56C4C5;
+    padding: 12px 32px;
+    margin-right: 16px;
+    border-radius: 27px;
+}
+
+.amount a:hover{
+    background-color: #56C4C5;
+    border: none;
+    color: white;
+}
+
+.amount
+    .active a{
+        background-color: #56C4C5;
+        color: white;
+    }
+
+.plancard{
+    display: flex;
+    justify-content: space-between;
+}
+
+.plancard li{
+    width: 49%;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px #00000014;
+}
+
+.plancard h3{
+    font-size: 24px;
+    line-height: 35px;
+    font-weight: bold;
+    padding: 10px 24px 16px 24px;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.plancard p{
+    line-height: 24px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.calculate{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 24px;
+    padding-left: 24px;
+}
+
+.calculate p{
+    font-size: 12px;
+    line-height: 17px;
+    margin-bottom: 8px;
+    margin-top: 0;
+}
+
+.user{
+    background-color: #F5F5F5;
+    border-radius: 12px;
+    width: 42%;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.number{
+    color: #56C4C5;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.number p{
+    font-size: 32px;
+    line-height: 35px;
+    font-family: 'Comfortaa', cursive;
+    margin: 0;
+    margin-bottom: 0;
+}
+
+.number span{
+    font-size: 12px;
+    line-height: 17px;
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+.equal p{
+    font-size: 29px;
+    line-height: 42px;
+}
+
+.fee{
+    background-color: #F5F5F5;
+    border-radius: 12px;
+    width: 42%;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.feenumber{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.feenumber p{
+    font-size: 32px;
+    line-height: 35px;
+    font-family: 'Comfortaa', cursive;
+    margin: 0;
+}
+
+.feenumber span{
+    font-size: 12px;
+    line-height: 17px;
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+.planfeature{
+    padding-left: 24px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.planfeature li{
+    display: flex;
+    width: 100%;
+    border-radius: 0%;
+    margin-bottom: 16px;
+    box-shadow: none;
+}
+
+.planfeature p{
+    margin: 0;
+}
+
+.planfeature img{
+    margin-right: 16px;
+}
+
+.btn-plan{
+    display: inline-block;
+    font-size: 18px;
+    line-height: 26px;
+    color: white;
+    background-color: #56C4C5;
+    padding: 12px 32px;
+    border-radius: 27px;
+    margin-bottom: 32px;
+}
+
+.btn-plan:hover{
+    background-color: #43B1B2;
+}
+
+.faq h2{
+    font-size: 32px;
+    line-height: 46px;
+    font-weight: bold;
+    margin-bottom: 48px;
+}
+
+.question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 32px;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px #00000014;
+    margin-bottom: 16px;
+}
+
+.question p{
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.question img{
+    display: block;
+}
+
+.question ,.qna text{
+    text-align: left;
+}
+
+.qna p{
+    font-weight: bold;
+    color: #56C4C5;
+    margin-bottom: 24px;
+}
+
+.qna span{
+    color: #747474;
+    line-height: 32px;
+
+}
+
+.qna a{
+    margin-top: 8px;
+}
+
+.qna{
+    align-items: flex-start;
+}
+
+.faq{
+    margin-bottom: 100px;
+}
+
+
+.footer-fee p{
+    text-align: center;
+    line-height: 24px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: #F5F5F5;
+}
+
+@media(max-width:992px) {
+    .bannercontent{
+        padding: 0 24px;
+    }
+
+
+    .planfeature p{
+        text-align: left;
+    }
+
+    .amount{
+        margin: 0 auto 38px;
+        width: 95%;
+        flex-wrap: wrap;
+    }
+
+    .amount li{
+        margin-bottom: 16px;
+    }
+
+    .amount a{
+        padding: 12px 24px;
+    }
+}
+
+@media(max-width:767px) {
+    .bannertitle h1{
+        font-size: 40px;
+        line-height: 58px;  
+    }
+
+    .bannerbg{
+        height:420px;
+    }
+
+    .plan h2{
+        font-size: 28px;
+        line-height: 42px;
+        margin-bottom: 32px;
+    }
+
+    .amount{
+        margin: 0 20px;
+        margin-bottom: 40px;
+    }
+
+    .amount a{
+        font-size: 16px;
+        line-height: 24px;
+        padding: 12px 16px;
+    }
+
+    .plancard h3{
+        font-size: 20px;
+        line-height: 29px;
+    }
+
+    .plancard p{
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+
+    .calculate p{
+        margin-top: 0;
+        margin-bottom: 8px;
+    }
+
+    .number p{
+        margin-bottom: 0;
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .feenumber p{
+        margin-bottom: 0;
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .planfeature p{
+        margin: 0;
+    }
+
+    .qna
+        .text{
+            text-align: left;
+        }
+    
+    .number{
+        flex-wrap: wrap;
+    }
+
+    .feenumber{
+        flex-wrap:wrap;
+    }
+}
+
+@media(max-width:576px) {
+    .bg-img img{
+        top: 74px;
+    }
+
+    .bannertitle h1{
+        font-size: 32px;
+        line-height: 46px;
+    }
+
+    .plancard{
+        flex-wrap: wrap;
+    }
+
+    .plancard li{
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+
+}
+
+@media(max-width:414px) {
+    .bg-img img{
+        display: none;
+        top: 0;
+    }
+
+    .bannerbg{
+        background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/banner_sm.svg);
+        background-repeat: no-repeat;
+        background-position: top right;
+        height: 495px;
+    }
+
+    .amount a{
+        padding: 8px 16px;
+        margin-right: 6px;
+    }
+
+    .amount{
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 32px;
+    }
+
+    .plan{
+        margin-bottom: 60px;
+    }
+
+    .faq h2{
+        margin-bottom: 32px;
+    }
+
+    .question p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .question{
+        padding: 16px;
+    }
+
+    .question img{
+        width: 16px;
+        height: 16px;
+    }
+
+    .fee-content{
+        width: 100%;
+    }
+    
+}
